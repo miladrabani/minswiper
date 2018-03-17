@@ -1,0 +1,201 @@
+#GameBoard{
+border: 2px solid rgb(255, 188, 177);
+border-radius: 8px;
+width: 60%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: rgb(58, 96, 97);
+margin-top: 4px;
+}
+td{
+    border: 2px solid  #E0E3DA;
+    background-color:
+    #9DC8C8;
+    color:
+    #9DC8C8;
+    width: 5%;
+    height: 50%;
+}
+.td{
+    border: 2px solid  #E0E3DA;
+    background-color:
+    #9DC8C8;
+    color:
+    #9DC8C8;
+    width: 5%;
+    height: 50%;
+}
+body{
+    background-color: 
+    #454f5a;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+#disbomb{
+    position: relative;
+    display: inline-block;
+    font-family: "DS-Digital";
+    font-size: 60px;
+    color: rgb(255, 0, 0);
+    top: 18%;
+    left: 33%;
+    right: 33%;
+    margin: auto;
+
+}
+td:hover{
+    background-color: 
+    #FFFFF3;
+    color:transparent;
+    cursor: pointer;
+}
+.Bomb{
+    background: url("bomb.png") no-repeat center center;
+    background-size: 15px 15px;
+    background-color:rgb(175, 221, 144);
+}
+.Number{
+    background-color: 
+    #58C9B9
+    ;
+    color: black;
+}
+.Empty{
+    background-color:
+    
+#519D9E
+    ;
+    color: 
+    
+#519D9E
+    ;
+}
+#Panle{
+    width: 200px;
+    height: 100px;
+    background-color: 
+    #1a212a;
+
+
+    border-radius: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+}
+.flag{
+    background: url("flag.png") no-repeat center center;
+    background-size: 15px 15px;
+    background-color: white;
+    color: transparent;
+}
+.flag2{
+    background: url("flag2.png") no-repeat center center;
+    background-size: 15px 15px;
+    background-color: white;
+    color: transparent;
+}
+
+ body, html{     
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+} 
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 46%;
+    height: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    display: none;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    display: none;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+input{
+padding-bottom: 8px;
+color: black;
+height: 50%;
+}
+input[type=range] {
+    display: block;
+    width: 100%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    position: relative;
+    bottom: 4px;
+    width: 20%;
+}
+p {
+    margin: 0 0 10px;
+    display: inline-block;
+    position: relative;
+    right: 54%;
+    font-size: large;
+}
