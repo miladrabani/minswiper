@@ -224,6 +224,7 @@ var cEvent=document.getElementById("GameBoard").onclick=function(e){
 
            }
         }
+        alert("aaaaaaaaaaaaaaaaaaaahhhhhh")
         document.getElementById("GameBoard").onclick= null;
         document.getElementById("GameBoard").onmousedown=null;/////when you Lose
     }
