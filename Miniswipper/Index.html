@@ -1,19 +1,24 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="static/bootstrap-3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
 </head>
 <body oncontextmenu="return false;">
+
+
+  <!-- Modal -->
+
+
+
 <div id="Panle">
     <div id="disbomb"></div>
 </div>
-<table id="GameBoard">
+<table  id="GameBoard">
 </table>
+
+
 <div id="myModal" class="modal">
     <div class="modal-content">
         <div class="modal-header">
@@ -31,7 +36,26 @@
         </div>
     </div>
 </div>
-srrgfgdg
+
+<div id="modalreplay" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Replay </h2>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+            <button id="btn-replay" class="btn btn-primary" onclick="Replay()"><span class="glyphicon glyphicon-repeat"></span></button>
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="static/bootstrap-3.3.7/js/jquery.min.js"></script>
+<script src="static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
