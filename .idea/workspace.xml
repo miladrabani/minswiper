@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a3e2045-1613-49a9-b867-59882a6c2468" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Miniswipper/Index.html" afterPath="$PROJECT_DIR$/Miniswipper/Index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +17,10 @@
       <file leaf-file-name="Index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Miniswipper/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="297">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
-                <element signature="e#716#723#1" expanded="true" />
+                <element signature="e#501#508#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -28,7 +29,7 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Miniswipper/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8829">
+            <state relative-caret-position="8856">
               <caret line="328" column="17" lean-forward="false" selection-start-line="328" selection-start-column="17" selection-end-line="328" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -206,7 +207,27 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#716#723#1" expanded="true" />
+            <element signature="e#501#508#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miniswipper/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8856">
+          <caret line="328" column="17" lean-forward="false" selection-start-line="328" selection-start-column="17" selection-end-line="328" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Miniswipper/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#501#508#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -223,7 +244,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Miniswipper/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8829">
+        <state relative-caret-position="8856">
           <caret line="328" column="17" lean-forward="false" selection-start-line="328" selection-start-column="17" selection-end-line="328" selection-end-column="17" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -233,10 +254,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Miniswipper/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="297">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
-            <element signature="e#716#723#1" expanded="true" />
+            <element signature="e#501#508#1" expanded="true" />
           </folding>
         </state>
       </provider>
